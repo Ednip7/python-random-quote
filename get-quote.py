@@ -1,11 +1,11 @@
 def main():
     print("Keep it logically awesome.")
-  #Ahora si funciona
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
 
-  #print(quotes)
+    f = open("quotes.txt")
+    quotes = f.readlines()
+    f.close()
+
+  #print(quotes[0])
 
 if __name__== "__main__":
   main()
